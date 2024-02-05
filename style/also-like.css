@@ -12,13 +12,15 @@
   display: flex;
   flex-direction: row;
   overflow-x: scroll;
-  /* overflow-y:hidden; */
-  padding: 10px 0px;
+  
+
+  margin: 0px -20px;
 }
 
 .also-like-list-item {
   width: 300px;
-  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+    rgba(17, 17, 26, 0.05) 0px 8px 32px;
   margin: 0px 20px;
 }
 
