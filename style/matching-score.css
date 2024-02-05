@@ -2,7 +2,7 @@
   margin: 0px 20px;
 }
 .matching-score h2{
-  font-size: 60px;
+  font-size: 20px;
 }
 
 .matching-score-text-container {
@@ -13,12 +13,12 @@
 }
 
 .matching-score-progress-bar {
-  width: 200px;
-  height: 200px;
+  width: 60px;
+  height: 60px;
   background-color: #f3f3f3;
   border-radius: 50%;
-  border: 10px solid #1ad852;
-  border-top: 20px solid #eeeeee;
+  border: 2px solid #1ad852;
+  border-top: 2px solid #eeeeee;
   rotate: -45deg;
   position: relative;
   display: flex;
@@ -27,7 +27,7 @@
 }
 .matching-score-progress-bar span {
   position: absolute;
-  font-size: 50px;
+  font-size: 13px;
   rotate: 45deg;
   left: 25%; 
    top: 50%;

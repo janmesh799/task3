@@ -13,14 +13,14 @@
   background-color: #7323dc;
 }
 .tab-container p {
-  font-size: 50px;
+  font-size: 12px;
   padding: auto 0rem;
 }
 .tab-container hr {
   margin-right: 67%;
   margin-top: 0%;
   width: 33%;
-  height: 10px;
+  height: 3px;
   background-color: #f94083;
   justify-self: center;
 }
@@ -36,7 +36,7 @@ hr {
 #detail-read-more-button button {
   cursor: pointer;
   border: none;
-  font-size: 50px;
+  font-size: 12px;
   color: #f94083;
   display: flex;
   flex-direction: row;
@@ -52,12 +52,12 @@ hr {
   margin: 0px 20px;
 }
 #detail-content div h3 {
-  font-size: 40px;
+  font-size: 15px;
   line-height: 10px;
 }
 #detail-content div p {
-  font-size: 20px;
-  line-height: 20px;
+  font-size: 10px;
+  line-height: 15px;
 }
 
 #detail-content > :nth-child(1) {

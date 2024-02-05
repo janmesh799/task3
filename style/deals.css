@@ -3,13 +3,13 @@
 }
 
 .deals h2 {
-  font-size: 60px;
+  font-size: 20px;
 }
 
 #deals-read-more-button button {
   cursor: pointer;
   border: none;
-  font-size: 50px;
+  font-size: 15px;
   color: #f94083;
   display: flex;
   flex-direction: row;

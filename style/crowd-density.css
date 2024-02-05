@@ -3,16 +3,19 @@
 }
 
 .crowd-density h2 {
-  font-size: 60px;
+  font-size: 20px;
 }
 .clock-image {
   width: 30%;
+}
+.crowd-graph-image{
+  width: 50%;
 }
 .clock-text-container {
   display: flex;
   flex-direction: row;
   align-items: center;
-  font-size: 40px;
+  font-size: 13px;
 }
 
 

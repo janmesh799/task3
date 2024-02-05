@@ -4,24 +4,26 @@
 }
 
 .also-like h2 {
-    font-size: 60px;
+    font-size: 20px;
 }
 
 #also-like-list {
     display: flex;
     flex-direction: row;
     overflow-x: scroll;
+    /* overflow-y:hidden; */
+    padding:10px 0px;
 }
 
 .also-like-list-item {
-    width: 650px;
+    width: 300px;
     box-shadow: 0px 0px 10px gray;
     margin: 0px 20px;
 }
 
 .also-like-list-item img {
-    width: 650px;
-    height: 300px;
+    width: 300px;
+    height: 200px;
     object-fit: cover;
 }
 
@@ -37,17 +39,17 @@
 .also-like-list-item-text> :nth-child(1),
 .also-like-list-item-text> :nth-child(7) {
     color: #f94083;
-    font-size: 45px;
+    font-size: 15px;
 }
 
 .also-like-list-item-text> :nth-child(3) {
     color: #000;
-    font-size: 45px;
+    font-size: 15px;
 }
 
 .also-like-list-item-text> :nth-child(5) {
     color: #625f5f;
-    font-size: 45px;
+    font-size: 15px;
     margin: 0px 0px;
 }
 
@@ -59,10 +61,10 @@
 .also-like-btn-container> :nth-child(1) {
     position: absolute;
     z-index: 2;
-    width: 100px;
-    height: 100px;
+    width: 50px;
+    height: 50px;
     right: 22%;
-    margin-top: -8%;
+    margin-top: -10%;
     border-radius: 50px;
     box-shadow: 0px 0px 20px gray;
 }
@@ -71,10 +73,10 @@
 .also-like-btn-container> :nth-child(2) {
     position: absolute;
     z-index: 2;
-    width: 100px;
-    height: 100px;
+    width: 50px;
+    height: 50px;
     right: 4%;
-    margin-top: -8%;
+    margin-top: -10%;
     border-radius: 50px;
     box-shadow: 0px 0px 20px gray;
 }
@@ -82,20 +84,20 @@
 .also-like-btn-container> :nth-child(3) {
     display: flex;
     flex-direction: row;
-    width: 200px;
-    height: 80px;
+    width: 60px;
+    height: 25px;
     background-color: #1d0031;
     border: 2px solid #83a8fe;
     position: absolute;
     z-index: 2;
     left: 3%;
-    margin-top: -20%;
+    margin-top: -15%;
     border-radius: 2em;
 }
 
 .also-like-btn-container> :nth-child(3) img {
-    height: 80px;
-    width: 100px;
+    height: 25px;
+    width: 25px;
     border-right: 2px solid #83a8fe;
 }
 
@@ -105,7 +107,7 @@
     margin: auto 0em;
     padding: auto;
     color: white;
-    font-size: 30px;
-    margin-top: 15px;
+    font-size: 10px;
+    margin-top: 8px;
     font-family: "Poppins", sans-serif;
 }
