@@ -1,0 +1,19 @@
+.crowd-density {
+  margin: 0px 20px;
+}
+
+.crowd-density h2 {
+  font-size: 60px;
+}
+.clock-image {
+  width: 30%;
+}
+.clock-text-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 40px;
+}
+
+
+

@@ -1,0 +1,42 @@
+.matching-score {
+  margin: 0px 20px;
+}
+
+.matching-score-text-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.matching-score-progress-bar {
+  width: 200px;
+  height: 200px;
+  background-color: #f3f3f3;
+  border-radius: 50%;
+  border: 10px solid #1ad852;
+  border-top: 20px solid #eeeeee;
+  rotate: -45deg;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.matching-score-progress-bar span {
+  position: absolute;
+  font-size: 50px;
+  rotate: 45deg;
+  left: 25%; 
+   top: 50%;
+  width: 100%;
+}
+
+.matching-score-text-container > :nth-child(2) {
+  /* margin-left: 20px; */
+  width: 75%;
+}
+
+.preferences{
+  color: #F94093;
+  cursor: pointer;
+}

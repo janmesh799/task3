@@ -1,0 +1,39 @@
+.menu {
+  margin: 0px 20px;
+}
+
+#menu-view-all-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+#menu-view-all-btn h2{
+    font-size: 60px;
+}
+#menu-view-all-btn button {
+  padding: 22px 65px;
+  font-size: 35px;
+  border: 2px solid rgb(246, 67, 97);
+  background-color: transparent;
+  color: rgb(246, 67, 97);
+  border-radius: 10px;
+}
+
+#menu-view-all-btn > :nth-child(3) {
+  display: none;
+}
+.menu-item-list {
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+  justify-content: flex-start;
+  padding: 0px 0px 40px 0px;
+}
+
+.menu-item-list img {
+  width: 650px;
+  height: 400px;
+  object-fit: cover;
+  margin: 10px 15px;
+}

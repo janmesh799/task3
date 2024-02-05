@@ -1,0 +1,25 @@
+.deals {
+  margin: 0px 20px;
+}
+
+.deals h2 {
+  font-size: 60px;
+}
+
+#deals-read-more-button button {
+  cursor: pointer;
+  border: none;
+  font-size: 50px;
+  color: #f94083;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: transparent;
+  margin: 10px 0px;
+}
+#deals-read-more-button > :nth-child(2) {
+  display: none;
+}
+.deals-more{
+    display: none;
+}
