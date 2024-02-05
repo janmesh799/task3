@@ -19,7 +19,7 @@
   border: 1px solid rgb(246, 67, 97);
   background-color: transparent;
   color: rgb(246, 67, 97);
-  border-radius: 10px;
+  border-radius: 5px;
 }
 #gallery-view-all-btn > :nth-child(3) {
   display: none;
@@ -29,12 +29,12 @@
   flex-direction: row;
   overflow-x: scroll;
   justify-content: flex-start;
-  padding: 0px 0px 40px 0px;
+  gap: 20px;
 }
 
 .gallery-item-list img {
   width: 300px;
   height: 200px;
   object-fit: cover;
-  margin: 10px 15px;
+  margin: 10px 0px;
 }

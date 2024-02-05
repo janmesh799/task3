@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-body{
+body {
   font-family: "Poppins", sans-serif;
 }
 .banner-container {
@@ -36,21 +36,21 @@ body{
 }
 /* rating container container*/
 .banner-image-container > :nth-child(4) {
-    display: flex;
-    flex-direction: row;
-    width: 24%;
-    background-color: #1d0031;
-    border: 2px solid #83a8fe;
-    position: absolute;
-    z-index: 2;
-    left: 3%;
-    top: 81%;
-    border-radius: 2em;
+  display: flex;
+  flex-direction: row;
+  width: 24%;
+  background-color: #1d0031;
+  border: 1px solid #83a8fe;
+  position: absolute;
+  z-index: 2;
+  left: 3%;
+  top: 81%;
+  border-radius: 5px;
 }
 .banner-image-container > :nth-child(4) img {
   width: 40%;
 
-  border-right: 2px solid #83a8fe;
+  border-right: 1px solid #83a8fe;
 }
 .banner-image-container > :nth-child(4) span {
   width: 60%;
@@ -81,7 +81,8 @@ body{
 }
 .banner-detail > :nth-child(2) {
   color: black;
-  font-size: 20px;
+  font-size: 22px;
+  font-weight: 500;
   font-family: "Poppins", sans-serif;
 
   margin: 0;
@@ -125,5 +126,6 @@ body{
   border-radius: 20px;
 }
 .discount-image {
-  width: 10%;
+  width: 25px;
+  height: 25px;
 }
