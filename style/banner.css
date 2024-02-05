@@ -58,7 +58,7 @@ body{
   margin: auto 0em;
   padding: auto;
   color: white;
-  font-size: 12px;
+  font-size: 15px;
   font-family: "Poppins", sans-serif;
 }
 .banner-image {
@@ -100,7 +100,7 @@ body{
 }
 
 .book-table-container {
-  margin: 2em 1.75em 0em 1.75em;
+  margin: 2px 17px 0px 11px;
   padding: 0em 1em;
   display: flex;
   flex-direction: column;

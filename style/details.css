@@ -1,5 +1,5 @@
 .details-and-review-container {
-  margin-top: 50px;
+  margin-top: 20px;
 }
 .tab-container {
   display: flex;
@@ -13,8 +13,7 @@
   background-color: #7323dc;
 }
 .tab-container p {
-  font-size: 12px;
-  padding: auto 0rem;
+  font-size: 14px;
 }
 .tab-container hr {
   margin-right: 67%;
@@ -43,6 +42,7 @@ hr {
   align-items: center;
   background-color: transparent;
   margin: 10px 0px;
+  margin-left: -25px;
 }
 #detail-read-more-button > :nth-child(2) {
   display: none;
@@ -54,9 +54,10 @@ hr {
 #detail-content div h3 {
   font-size: 15px;
   line-height: 10px;
+  font-weight: 550;
 }
 #detail-content div p {
-  font-size: 10px;
+  font-size: 12px;
   line-height: 15px;
 }
 

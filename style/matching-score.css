@@ -3,12 +3,13 @@
 }
 .matching-score h2{
   font-size: 20px;
+  font-weight: 550;
 }
 
 .matching-score-text-container {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
 }
 
@@ -37,6 +38,7 @@
 .matching-score-text-container > :nth-child(2) {
   /* margin-left: 20px; */
   width: 75%;
+  margin-left: 2%;
 }
 
 .preferences{
