@@ -20,9 +20,7 @@
   justify-content: center;
   align-items: center;
 }
-.amenity-item > :last-child {
-  margin: 10px 0px;
-}
+
 .amenity-item div {
   position: absolute;
   content: "";
